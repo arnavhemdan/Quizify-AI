@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #f0f0f0;
+}
+
+input[type="file"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+input[type="file"]:hover,
+input[type="number"]:hover {
+    background: #f1f1f1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: linear-gradient(135deg, #f2994a, #f2c94c);
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #e67e22, #f39c12);
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
