@@ -1,12 +1,11 @@
-# QuizMorph: AI-Powered Academic Companion
+# Quizify-AI: AI-Powered Academic Companion
 
-**QuizMorph** is an AI-powered tool designed to revolutionize learning and assessment by:  
-1️⃣ **Summarizing academic notes** to condense key concepts effectively.  
-2️⃣ **Generating MCQs** tailored to the summarized content for efficient self-evaluation and assessments.  
-
+**Quizify-AI** is an AI-driven platform aimed at transforming learning and evaluation by:  
+1️⃣ **Condensing academic notes** to highlight essential concepts for better understanding.  
+2️⃣ **Creating customized MCQs** based on the condensed content for streamlined self-assessment and testing.
 ---
 
-## 🛠️ Features  
+## 🦯 Features  
 - **AI-Powered Summarization**: Leveraging NLP models to extract key concepts from academic notes.  
 - **MCQ Generation**: Automatically creates multiple-choice questions relevant to the content.  
 - **User-Friendly Interface**: Upload your notes, get summaries, and download MCQs seamlessly.  
@@ -21,15 +20,15 @@
 
 ---
 
-## 🚀 How to Run QuizMorph  
+## 🚀 How to Run Quizify-AI  
 
-Follow these steps to set up and run **QuizMorph**:  
+Follow these steps to set up and run **Quizify-AI**:  
 
 ### 1. Clone the Repository  
 Clone the project repository to your local machine:  
 ```bash  
-git clone https://github.com/your-username/QuizMorph.git  
-cd QuizMorph
+git clone https://github.com/arnavhemdan/Quizify-AI.git
+cd Quizify-AI
 ```
 ### 2.  Set Up Environment
 Install the required dependencies using pip:
@@ -44,7 +43,7 @@ Add your Google API key to the project:
 2. Add your API key to the file:  
 
 ```plaintext
-GOOGLE_API_KEY=your_google_api_key_here
+GOOGLE_API_KEY="Enter your key here"
 ```
 ### 4. Run the Application
 
@@ -53,13 +52,13 @@ Start the application:
 ```bash
 python app.py
 ```
-The application will start on http://127.0.0.1:5000/. Open this URL in your browser to use QuizMorph.
+The application will start on http://127.0.0.1:5000/. Open this URL in your browser to use Quizify-AI.
 
-## 📂 File Structure
+## 🐂 File Structure
 ```plaintext
-QuizMorph/  
-├── app.py                # Main application logic(mcq generation)
-├── pdf.py                # Main application logic(summary of text)  
+Quizify-AI/  
+├── app.py                # Main application logic (MCQ generation)
+├── pdf.py                # Main application logic (summary of text)  
 ├── templates/            # HTML templates for the UI  
 ├── static/               # Static assets (CSS, JS)  
 ├── uploads/              # Uploaded files directory  
@@ -84,5 +83,5 @@ QuizMorph/
 
 ## 🤝 Contribution  
 
-Contributions are welcome! If you have ideas or improvements, feel free to **fork the repository**, make changes, and **submit a pull request**.  
+Contributions are welcome! If you have ideas or improvements, feel free to **fork the repository**, make changes, and **submit a pull request**.
 
